@@ -1,0 +1,23 @@
+type: model
+authority-id: A0GXGvspAxfskf2wYVh1zf39UJbxNlGA
+series: 16
+brand-id: A0GXGvspAxfskf2wYVh1zf39UJbxNlGA
+model: rock64
+architecture: arm64
+base: core18
+display-name: rk3328 snap
+gadget: rk3328gadget
+kernel: rk3328-snap
+timestamp: 2020-03-08T14:45:25+00:00
+sign-key-sha3-384: FvAZdKF8fPV0-NxpDFNm-jAyPsD-8r7atUGMGt2tN3U86MhT1erhy4likgNumvkO
+
+AcLBcwQAAQoAHRYhBE8P2QRt3/GhP6rbZEy41Lmqj+8KBQJeY9yLAAoJEEy41Lmqj+8Kv8MP/0oY
+BMQuglTXuq6IUF/4VKqGUYy8Kt7YKm/xiUOFYpU1rxTmNfTraqAfqG84wRvFeMYlPUINPzBjTEJP
+kubqj/xPaTaCPRDbKQt0B/DoOt2cGbnhz66t72H3VN6+DVB3/Ni8B9tZ2cXSxYpj8OVueqwGV+6Z
+4lsJDoyReEX8+whBK0Co+uWiLaUsFkqcMZvkNT7hO3OYhuV6zItacsmznrV4OOy2p+ls8qKpT8Jv
+m8lw2m44Qe6fLUX8Nie9O7KjanyQnrW4RFXOrjPuTVisSnCwFCJLLnegVe41j9TZwz9Yb+lSnomO
+CqOI6WQjy4SbY47Osnq3OF6uFJt0Ecx3DM8100uzW5HQdKhK7ff367l3MztSafVKUb8WbrdCD4nV
+LrUsHuPRhDKaeNVdpXeAuAf+2T44m2NHQs34rr4hIHzm9t/K8aVXdwd+LP7a+7erMCNEBEIZM6kT
+TfFRpyw9adldhbGw9w6T5gAPH0peCkDb7XHo3SAHSR0LzitLxufB0Pl68CUPdVbwJtXO4Au8cJEe
+/GEJRm3owqfTz7pZb9edCtFGQMbyxeKOhLhOV0S8P+kVYxT2uNrNHheZWhE+UzQ8fkY30kDzN8QV
+wxp2Pi6mTE26IS6ejLCxlSOg8ZaNcZEpB8P37L+07vd75xTxtAlsYFWaEo8VyUNHgbzmjJdk

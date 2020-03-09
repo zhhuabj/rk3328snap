@@ -1,0 +1,13 @@
+{
+    "type": "model",
+    "authority-id": "A0GXGvspAxfskf2wYVh1zf39UJbxNlGA",
+    "brand-id": "A0GXGvspAxfskf2wYVh1zf39UJbxNlGA",
+    "series": "16",
+    "base": "core18",
+    "model": "rock64",
+    "display-name":"rk3328 snap",
+    "architecture": "arm64",
+    "gadget": "rk3328gadget",
+    "kernel": "rk3328-snap",
+    "timestamp": "2020-03-08T14:45:25+00:00"
+}

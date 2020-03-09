@@ -1,0 +1,42 @@
+#https://github.com/ogra1/linux-arm64-snap/blob/master/snap/snapcraft.yaml
+name: rk3328kernel
+#adopt-info: part2
+version: 0.1
+summary: rk3328
+description: rk3328
+grade: stable
+confinement: strict
+type: kernel
+architectures:
+  - build-on: amd64
+    run-on: arm64
+parts:
+  part1:
+    plugin: nil
+    #https://snapcraft.io/docs/parts-lifecycle
+    override-pull: |
+      snapcraftctl pull
+    override-build: |
+      snapcraftctl build  
+  part2:
+    #use 'snapcraft help kernel' to see the help for kernel plugin
+    plugin: kernel
+    override-build: |
+      #snapcraftctl build  #comment it because there is no linux source code
+      env |grep SNAP 
+      #question: how to use rootfs ?
+      cp $SNAPCRAFT_STAGE/../Image $SNAPCRAFT_PART_INSTALL/Image
+      cp $SNAPCRAFT_STAGE/../Image $SNAPCRAFT_PART_INSTALL/kernel.img
+    kernel-with-firmware: false
+    kernel-device-trees:
+      - rk3328-roc-cc
+    build-packages:
+      - bc
+      - bison
+      - cpio
+      - kmod
+      - flex
+      - libssl-dev
+      - on amd64 to arm64:
+        - gcc-aarch64-linux-gnu:amd64
+    after: [ part1 ]
